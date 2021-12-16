@@ -18,8 +18,10 @@ Implemented:
 - \c (chapter)
 - \v (verse)
 - \p (paragraph)
+- \s (section)
+- \f...\f* (footnote)
 
 Planned:
 
-- \s (section)
-- \f (footnote)
+- \fe, \fr, \fq, \fqa, \fk, \fl, \fw, \fp, \fv, \ft, \fdc, \fm (footnotes)
+- \x, \xo, \xk, \xq, \xt (cross-references)

@@ -2,6 +2,8 @@
 
 ```js
 import { loremIpsumBook } from 'lorem-ipsum-usfm';
+import { UsfmEditor } from 'simple-text-editor-rcl';
+import './Usfm.css';
 
 const book = loremIpsumBook({
   bookCode: '1LI',
@@ -17,7 +19,11 @@ const book = loremIpsumBook({
   // verbose: true,
 });
 
-<pre style={{ maxHeight: '300px', overflow: 'scroll'}}>
-  {book}
-</pre>;
+<UsfmEditor {...{ 
+  text: book, 
+  sectionable: false, 
+  blockable: false, 
+  editable: false, 
+  headingComponent: () => (<></>),  
+}} />;
 ```
