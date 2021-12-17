@@ -24,6 +24,7 @@ const book = loremIpsumBook({
   sectionable: false, 
   blockable: false, 
   editable: false, 
-  headingComponent: () => (<></>),  
+  headingComponent: () => (<></>),
+  onSectionClick: () => {},
 }} />;
 ```
