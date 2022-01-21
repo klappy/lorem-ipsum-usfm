@@ -1,7 +1,7 @@
 {
   "name": "lorem-ipsum-usfm",
   "description": "A lorem ipsum generator for USFM files.",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "private": false,
   "homepage": "https://lorem-ipsum-usfm.netlify.app/",
   "license": "MIT",
@@ -29,7 +29,7 @@
     "react-dom": "^17.0.2",
     "react-scripts": "^4.0.3",
     "react-styleguidist": "^11.1.7",
-    "simple-text-editor-rcl": "^3.1.0",
+    "simple-text-editor-rcl": "^3.3.18",
     "webpack": "4.44.0"
   },
   "scripts": {
