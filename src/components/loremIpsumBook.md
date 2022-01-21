@@ -3,7 +3,6 @@
 ```js
 import { loremIpsumBook } from 'lorem-ipsum-usfm';
 import { UsfmEditor } from 'simple-text-editor-rcl';
-import './Usfm.css';
 
 const book = loremIpsumBook({
   bookCode: '1LI',
