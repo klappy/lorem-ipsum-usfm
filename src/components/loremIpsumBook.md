@@ -13,6 +13,7 @@ const book = loremIpsumBook({
   chapterBias: 5,
   // chapterCount: 3,
   paragraphChance: 0.3,
+  paragraphStartChapter: true,
   verseMin: 1,
   verseMax: 100,
   verseBias: 10,
@@ -23,7 +24,8 @@ const book = loremIpsumBook({
   text: book, 
   sectionable: false, 
   blockable: false, 
-  editable: false, 
+  editable: false,
+  preview: false,
   headingComponent: () => (<></>),
   onSectionClick: () => {},
 }} />;

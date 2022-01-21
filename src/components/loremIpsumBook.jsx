@@ -13,6 +13,8 @@ loremIpsumBook.propTypes = {
   chapterCount: PropTypes.number,
   /** Likelihood of paragraphs breaking up verses. */
   paragraphChance: PropTypes.number,
+  /** Start each chapter with a new paragraph. */
+  paragraphStartChapter: PropTypes.bool,
   /** Likelihood of section headings before a verse. */
   sectionChance: PropTypes.number,
   /** Likelihood of a footnote in a verse. */
@@ -37,6 +39,7 @@ loremIpsumBook.defaultProps = {
   chapterMax: 200,
   chapterBias: 5,
   paragraphChance: 0.5,
+  paragraphStartChapter: false,
   sectionChance: 0.03,
   footnoteChance: 0.07,
   verseMin: 1,
