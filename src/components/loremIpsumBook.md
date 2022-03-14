@@ -16,6 +16,7 @@ const book = loremIpsumBook({
   verseMin: 1,
   verseMax: 100,
   verseBias: 10,
+  rangeChance: 0.1,
   // verbose: true,
 });
 

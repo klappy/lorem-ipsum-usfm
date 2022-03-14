@@ -27,6 +27,8 @@ loremIpsumBook.propTypes = {
   verseMax: PropTypes.number,
   /** Bias the number of verses per chapter. */
   verseBias: PropTypes.number,
+  /** Chance of a verse range */
+  rangeChance: PropTypes.number,
   /** console log details. */
   verbose: PropTypes.bool,
 };
@@ -45,5 +47,6 @@ loremIpsumBook.defaultProps = {
   verseMin: 1,
   verseMax: 150,
   verseBias: 20,
+  rangeChance: 0.05,
   verbose: false,
 };
